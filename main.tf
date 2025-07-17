@@ -8,3 +8,5 @@ resource "azurerm_resource_group" "rg" {
   name      = "jn-basic-pipeline2" 
   location  = "westus2"
   }
+
+# Trigger 1
