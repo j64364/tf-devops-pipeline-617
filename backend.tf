@@ -1,5 +1,4 @@
 # Backend
-
 terraform {
   backend "azurerm" {
     resource_group_name  = "jn-basic-pipeline"
