@@ -1,6 +1,6 @@
 terraform {
   backend "azurerm" {
-    resource_group_name  = "jn-basic-pipeline"
+    resource_group_name  = "jn-basic-pipeline2"
     storage_account_name = "j64364sa"
     container_name       = "tfstate"
     key                  = "terraform.tfstate"
