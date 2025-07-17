@@ -1,6 +1,6 @@
 terraform {
   backend "azurerm" {
-    resource_group_name  = "jn-basic-pipeline2"
+    resource_group_name  = "jn-basic-pipeline"
     storage_account_name = "j64364sa"
     container_name       = "tfstate"
     key                  = "terraform.tfstate"
@@ -13,6 +13,6 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "rg" {
-  name      = "jn-basic-pipeline" 
+  name      = "jn-basic-pipeline2" 
   location  = "westus2"
   }
